@@ -1,5 +1,3 @@
-当然，下面是一个示例的README文件，你可以根据你的实际情况进行修改和补充：
-
 # Zepp-OS-Pokemon-Band7
 
 欢迎来到Zepp-OS-Pokemon-Band7开源项目！
