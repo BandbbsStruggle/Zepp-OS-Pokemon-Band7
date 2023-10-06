@@ -1,0 +1,81 @@
+{
+    "configVersion": "v2",
+    "app": {
+      "appIdType": 0,
+      "appType": "app",
+      "version": {
+        "code": 1,
+        "name": "1.0.0"
+      },
+      "appId": 2004,
+      "appName": "宝可梦",
+      "icon": "icon.png",
+      "vender": "Struggle",
+      "description": "\u5e94\u8be5\u6ca1\u4eba\u4f1a\u6ce8\u610f\u5230\u8fd9\u6761\u4ecb\u7ecd\u5427"
+    },
+    "permissions": ["gps"],
+    "runtime": {
+      "apiVersion": {
+        "compatible": "1.0.0",
+        "target": "1.0.1",
+        "minVersion": "1.0.0"
+      }
+    },
+    "i18n": {
+      "en-US": {
+        "name": "Pokemon"
+      }
+    },
+    "defaultLanguage": "en-US",
+    "debug": false,
+    "module": {
+      "page": {
+        "pages": ["page/test"],
+        "window": {
+          "navigationBarBackgroundColor": "#ffffff",
+          "navigationBarTextStyle": "black",
+          "navigationBarTitleText": "Pokemon",
+          "backgroundColor": "#eeeeee",
+          "backgroundTextStyle": "light"
+        }
+      }
+    },
+
+    "platforms": [
+        {
+          "name": "SmartBand7_1",
+          "deviceSource": 260
+        },
+        {
+          "name": "SmartBand7_2",
+          "deviceSource": 261
+        },
+        {
+          "name": "SmartBand7_3",
+          "deviceSource": 262
+        },
+        {
+          "name": "SmartBand7_4",
+          "deviceSource": 263
+        },
+        {
+          "name": "SmartBand7_5",
+          "deviceSource": 264
+        },
+        {
+          "name": "SmartBand7_6",
+          "deviceSource": 265
+        },
+        {
+          "name": "SmartBand7_7",
+          "deviceSource": 266
+        }
+      ],
+      "designWidth": 192,
+      "packageInfo": {
+        "mode": "production",
+        "timeStamp": 1648534836,
+        "expiredTime": 172800,
+        "zpm": "2.1.49"
+      }
+  }
